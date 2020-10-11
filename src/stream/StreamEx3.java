@@ -1,3 +1,5 @@
+package stream;
+
 import java.util.Comparator;
 import java.util.IntSummaryStatistics;
 import java.util.stream.IntStream;

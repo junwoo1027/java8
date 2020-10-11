@@ -1,4 +1,5 @@
-import java.util.Comparator;
+package stream;
+
 import java.util.IntSummaryStatistics;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -14,7 +15,7 @@ public class StreamEx1 {
                 new Student("na", 3, 290),
                 new Student("gam", 3, 180)
         );
-//        studentStream.sorted(Comparator.comparing(Student::getBan)
+//        studentStream.sorted(Comparator.comparing(stream.Student::getBan)
 //                .thenComparing(Comparator.naturalOrder()))
 //                .forEach(System.out::println);
 
@@ -30,12 +31,12 @@ public class StreamEx1 {
     }
 }
 
-//class Student implements Comparable<Student> {
+//class stream.Student implements Comparable<stream.Student> {
 //    String name;
 //    int ban;
 //    int totalScore;
 //
-//    Student(String name, int ban, int totalScore) {
+//    stream.Student(String name, int ban, int totalScore) {
 //        this.name = name;
 //        this.ban = ban;
 //        this.totalScore = totalScore;
@@ -57,7 +58,7 @@ public class StreamEx1 {
 //        return totalScore;
 //    }
 //
-//    public int compareTo(Student s) {
+//    public int compareTo(stream.Student s) {
 //        return s.totalScore - this.totalScore;
 //    }
 //}

@@ -1,3 +1,5 @@
+package stream;
+
 import java.io.File;
 import java.util.stream.Stream;
 
